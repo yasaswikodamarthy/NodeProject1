@@ -1,0 +1,24 @@
+{
+  "name": "test_assessment",
+  "version": "1.0.0",
+  "description": "Assessment for Authentication using nodejs and mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "knex"
+  },
+  "author": "Yasaswi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.3",
+    "helmet": "^3.22.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "sqlite3": "^4.2.0"
+  }
+}
