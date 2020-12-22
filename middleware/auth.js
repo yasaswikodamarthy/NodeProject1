@@ -18,7 +18,7 @@ const auth = function(req, res, next) {
         } else {
             res.status(500).json({
                 status: "failed",
-                message: "Not Authorized"
+                message: "Not Authorized to login"
             })
         }
     }
